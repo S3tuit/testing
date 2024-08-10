@@ -7,6 +7,9 @@ dependencies:
   - fastapi=0.75.1
   - python-dotenv=0.20.0
   - pyyaml=5.4.1
+  - uvicorn
+  - httpie
+  - Faker
   - pip
   - pip:
     - kafka-python==2.0.2
