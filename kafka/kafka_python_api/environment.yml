@@ -1,0 +1,13 @@
+name: py_kafka
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - fastapi=0.75.1
+  - python-dotenv=0.20.0
+  - pyyaml=5.4.1
+  - pip
+  - pip:
+    - kafka-python==2.0.2
+    # Add more pip-only packages here
