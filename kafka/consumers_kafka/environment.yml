@@ -1,0 +1,13 @@
+name: py_kafka_consumers
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - python-dotenv=0.20.0
+  - uvicorn
+  - httpie
+  - pip
+  - pip:
+    - kafka-python==2.0.2
+    # Add more pip-only packages here
