@@ -1,0 +1,13 @@
+name: faust_python
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - fastapi
+  - uvicorn
+  - httpie
+  - pip
+  - pip:
+    - faust-streamin
+    - configloader[all]>=1.0.1,<2.0
